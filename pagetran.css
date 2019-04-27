@@ -1,0 +1,89 @@
+
+#holder {
+	opacity: 0;
+	transition: all 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out;
+ 	-webkit-transition: all 0.2s ease-out;
+	-ms-transform: matrix(1,0,0,1,0,900); /* IE 9 */
+    -webkit-transform: matrix(1,0,0,1,0,900); /* Safari */
+	transform: matrix(1,0,0,1,0,900);
+}
+
+#holder.visible {
+
+	opacity: 1;
+	transition: all 0.2s ease-out;
+ 	-moz-transition: all 0.2s ease-out;
+ 	-webkit-transition: all 0.2s ease-out;
+	-ms-transform: matrix(1,0,0,1,0,0);  /* IE 9 */
+    -webkit-transform: matrix(1,0,0,1,0,0); /* Safari */
+	transform: matrix(1,0,0,1,0,0);
+}
+
+#banneranim {
+
+	opacity: 0;
+	transition: all 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out;
+ 	-webkit-transition: all 0.2s ease-out;
+	-ms-transform: matrix(1,0,0,1,500,0);  /* IE 9 */
+    -webkit-transform: matrix(1,0,0,1,500,0); /* Safari */
+	  transform: matrix(1,0,0,1,500,0);
+}
+
+#banneranim.visible {
+
+	opacity: 1;
+	transition: all 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out;
+ 	-webkit-transition: all 0.2s ease-out;
+	-ms-transform: matrix(1,0,0,1,0,0);  /* IE 9 */
+    -webkit-transform: matrix(1,0,0,1,0,0); /* Safari */
+	transform: matrix(1,0,0,1,0,0);
+}
+
+#topbanneranim {
+
+	opacity: 0;
+	transition: all 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out;
+ 	-webkit-transition: all 0.2s ease-out;
+	-ms-transform: matrix(1,0,0,1,0,-500);  /* IE 9 */
+    -webkit-transform: matrix(1,0,0,1,0,-500); /* Safari */
+	  transform: matrix(1,0,0,1,0,-500);
+}
+
+#topbanneranim.visible {
+
+	opacity: 1;
+	transition: all 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out;
+ 	-webkit-transition: all 0.2s ease-out;
+	-ms-transform: matrix(1,0,0,1,0,0);  /* IE 9 */
+    -webkit-transform: matrix(1,0,0,1,0,0); /* Safari */
+	transform: matrix(1,0,0,1,0,0); */
+}
+  
+#featureanim {
+
+	opacity: 0;
+	transition: all 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out;
+ 	-webkit-transition: all 0.2s ease-out;
+	-ms-transform: matrix(1,0,0,1,-1200,0);  /* IE 9 */
+    -webkit-transform: matrix(1,0,0,1,-1200,0); /* Safari */
+	transform: matrix(1,0,0,1,-1200,0);
+}
+
+#featureanim.visible {
+
+	opacity: 1;
+	transition: all 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out;
+ 	-webkit-transition: all 0.2s ease-out;
+	-ms-transform: matrix(1,0,0,1,0,0);  /* IE 9 */
+    -webkit-transform: matrix(1,0,0,1,0,0); /* Safari */
+	transform: matrix(1,0,0,1,0,0); */
+}
+
+
